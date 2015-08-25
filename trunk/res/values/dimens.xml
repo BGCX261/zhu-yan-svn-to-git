@@ -1,0 +1,16 @@
+<resources>
+
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="padding_medium">8dp</dimen>
+    <dimen name="padding_large">16dp</dimen>
+    <dimen name="wheel_text_size">24sp</dimen>
+    <dimen name="tab_width">138dip</dimen>
+    <dimen name="tab_close_width">28dip</dimen>
+    <dimen name="drag_item_normal_height">50dip</dimen>
+    <dimen name="slidingmenu_offset">60dp</dimen>
+    <dimen name="list_padding">10dp</dimen>
+    <dimen name="shadow_width">15dp</dimen>
+
+    <integer name="num_cols">1</integer>
+
+</resources>

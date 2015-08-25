@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/change_color"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/create_short_cut"
+        style="@style/wrap"
+        android:background="#006000"
+        android:gravity="center_horizontal"
+        android:text="创建快捷方式" />
+
+    <TextView
+        android:id="@+id/del_short_cut"
+        style="@style/wrap"
+        android:layout_marginTop="20dip"
+        android:background="#006000"
+        android:gravity="center_horizontal"
+        android:text="删除快捷方式" />
+
+</LinearLayout>

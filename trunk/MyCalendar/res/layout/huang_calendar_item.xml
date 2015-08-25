@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/fillx"
+    android:gravity="center_vertical"
+    android:paddingBottom="5dip"
+    android:paddingLeft="10dip"
+    android:paddingRight="10dip"
+    android:paddingTop="5dip" >
+
+    <TextView
+        android:id="@+id/tv_title"
+        style="@style/calendar_view_left"
+        android:text="@string/tradition_calendar" />
+
+    <TextView
+        android:id="@+id/tv_content"
+        style="@style/calendar_view_right" />
+
+</TableRow>

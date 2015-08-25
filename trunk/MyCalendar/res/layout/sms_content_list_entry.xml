@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- NOTE: list_padding_right is put to call icon, to give it largest size. -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/fillx"
+    android:paddingBottom="10dip"
+    android:paddingLeft="4dip"
+    android:paddingTop="10dip" >
+
+    <ImageView
+        android:id="@+id/contact_icon"
+        android:layout_width="38dip"
+        android:layout_height="38dip"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="4dip"
+        android:src="@drawable/a00_contact_pic_2" />
+
+    <TextView
+        android:id="@+id/date"
+        style="@style/text6"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="4dip"
+        android:layout_marginRight="10dip"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/name"
+        style="@style/text1"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/contact_icon" />
+
+    <TextView
+        android:id="@+id/content"
+        style="@style/text6"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@id/contact_icon"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

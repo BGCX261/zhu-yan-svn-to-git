@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/fillall"
+    android:background="@drawable/body_bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        style="@style/fillx"
+        android:background="@drawable/head_bg"
+        android:gravity="center_vertical" >
+
+        <EditText
+            android:id="@+id/title_txt"
+            style="@style/wrap"
+            android:layout_weight="1"
+            android:background="@drawable/text_box_bg"
+            android:hint="@string/title_not_can_not_null"
+            android:padding="5dip" />
+
+        <TextView
+            android:id="@+id/note_delete"
+            style="@style/wrap"
+            android:layout_margin="5dip"
+            android:background="@drawable/title_date_btn"
+            android:padding="5dip"
+            android:text="@string/note_delete" />
+
+        <TextView
+            android:id="@+id/note_save"
+            style="@style/wrap"
+            android:layout_margin="5dip"
+            android:background="@drawable/title_date_btn"
+            android:padding="5dip"
+            android:text="@string/note_save" />
+    </LinearLayout>
+
+    <com.cc.software.calendar.view.TelEdit
+        android:id="@+id/content_txt"
+        style="@style/fillx"
+        android:layout_weight="1"
+        android:background="@drawable/text_box_bg"
+        android:capitalize="sentences"
+        android:gravity="top"
+        android:hint="@string/content_not_can_not_null"
+        android:lineSpacingExtra="5dip"
+        android:textColor="@color/black"
+        android:textSize="22dip" />
+
+</LinearLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Struts2Diagram version="2.0">
+  <package name="default" location="10,10" size="170,70">
+    <action name="login" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="main.jsp" />
+      </result>
+      <result name="error">
+        <resourceEdge source="error" routing="0" target="login.jsp" />
+      </result>
+    </action>
+    <action name="xsInfo" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="xsInfo.jsp" />
+      </result>
+    </action>
+    <action name="updateXsInfo" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="updateXsInfo.jsp" />
+      </result>
+    </action>
+    <action name="updateXs" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="updateXs_success.jsp" />
+      </result>
+    </action>
+    <action name="getXsKcs" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="xsKcs.jsp" />
+      </result>
+    </action>
+    <action name="deleteKc" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="deleteKc_success.jsp" />
+      </result>
+    </action>
+    <action name="getAllKc" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="allKc.jsp" />
+      </result>
+    </action>
+    <action name="selectKc" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="select_success.jsp" />
+      </result>
+      <result name="error">
+        <resourceEdge source="error" routing="0" target="select_fail.jsp" />
+      </result>
+    </action>
+  </package>
+  <webResource name="index.jsp" path="/index.jsp" location="0,0" size="0,0" />
+  <webResource name="login.jsp" path="/login.jsp" location="0,0" size="0,0" />
+  <webResource name="xsInfo.jsp" path="/xsInfo.jsp" location="0,0" size="0,0" />
+  <webResource name="updateXsInfo.jsp" path="/updateXsInfo.jsp" location="0,0" size="0,0" />
+  <webResource name="updateXs_success.jsp" path="/updateXs_success.jsp" location="0,0" size="0,0" />
+  <webResource name="xsKcs.jsp" path="/xsKcs.jsp" location="0,0" size="0,0" />
+  <webResource name="deleteKc_success.jsp" path="/deleteKc_success.jsp" location="0,0" size="0,0" />
+  <webResource name="allKc.jsp" path="/allKc.jsp" location="0,0" size="0,0" />
+  <webResource name="select_success.jsp" path="/select_success.jsp" location="0,0" size="0,0" />
+  <webResource name="select_fail.jsp" path="/select_fail.jsp" location="0,0" size="0,0" />
+  <webResource name="main.jsp" path="/main.jsp" location="0,0" size="0,0" />
+</Struts2Diagram>
+

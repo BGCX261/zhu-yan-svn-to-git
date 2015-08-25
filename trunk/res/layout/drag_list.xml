@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 强调一点，使用相对布局 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <com.view.draglist.DragListView
+        style="@style/fillx"
+        android:id="@+id/drag_list"
+        android:cacheColorHint="@null" />
+
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/fillall" >
+
+    <ImageView
+        android:id="@+id/img_type"
+        style="@style/wrap"
+        android:layout_gravity="center_vertical" />
+
+    <TextView
+        android:id="@+id/note_title"
+        style="@style/fillall"
+        android:layout_gravity="center_vertical"
+        android:ellipsize="marquee"
+        android:padding="10dip"
+        android:singleLine="true"
+        android:textColor="@color/white"
+        android:textSize="17sp" />
+
+</LinearLayout>

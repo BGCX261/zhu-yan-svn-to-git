@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/fillx" >
+
+    <ProgressBar android:id="@+id/progress"
+        style="@style/wrap"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="10dip" />
+
+    <TextView
+        style="@style/wrap"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="75dip"
+        android:text="@string/pull_to_refresh_refreshing_label"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/white" />
+
+</RelativeLayout>

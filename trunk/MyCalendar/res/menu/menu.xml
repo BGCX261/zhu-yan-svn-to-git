@@ -1,0 +1,4 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:title="关于" android:id="@+id/about"></item>
+<item android:title="退出" android:id="@+id/exit"></item>
+</menu>

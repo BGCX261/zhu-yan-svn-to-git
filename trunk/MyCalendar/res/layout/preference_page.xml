@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    style="@style/fillall"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@android:id/list"
+        style="@style/fillx"
+        android:layout_marginLeft="1dip"
+        android:layout_marginRight="1dip"
+        android:cacheColorHint="#00000000"
+        android:divider="@drawable/between_item_line"
+        android:scrollbars="none" />
+
+    <ImageView
+        style="@style/fillx"
+        android:background="@drawable/between_item_line" />
+
+</LinearLayout>

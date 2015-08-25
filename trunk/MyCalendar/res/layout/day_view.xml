@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"    >
+
+    <include
+        android:background="@drawable/content_bg"
+        layout="@layout/view_header" />
+
+    <LinearLayout
+        style="@style/fillx"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="5dip"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            style="@style/filly"
+            android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/first_number"
+                style="@style/filly"
+                android:src="@drawable/n0" />
+
+            <ImageView
+                android:id="@+id/second_number"
+                style="@style/filly"
+                android:src="@drawable/n1" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/wrap"
+            android:orientation="vertical"
+            android:padding="5dip" >
+
+            <TextView
+                android:id="@+id/tv1"
+                style="@style/wrap"
+                android:singleLine="true"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/tv2"
+                style="@style/wrap"
+                android:singleLine="true"
+                android:textSize="17sp" />
+
+            <ImageView
+                style="@style/fillx"
+                android:background="@drawable/line" />
+
+            <TextView
+                android:id="@+id/tv3"
+                style="@style/wrap"
+                android:singleLine="true"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/tv4"
+                style="@style/wrap"
+                android:singleLine="true"
+                android:textSize="17sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/fillx"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="5dip"
+        android:background="@drawable/content_bg"
+        android:orientation="vertical" >
+
+        <TextView
+            style="@style/wrap"
+            android:gravity="center_vertical"
+            android:text="@string/huang_calender"
+            android:textSize="17sp" />
+
+        <ImageView
+            style="@style/fillx"
+            android:background="@drawable/line" />
+
+        <LinearLayout
+            style="@style/fillx"
+            android:gravity="center_vertical" >
+
+            <ImageView
+                style="@style/wrap"
+                android:src="@drawable/fitting" />
+
+            <TextView
+                android:id="@+id/fitting"
+                style="@style/wrap"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/fillx"
+            android:gravity="center_vertical" >
+
+            <ImageView
+                style="@style/wrap"
+                android:src="@drawable/forbiding" />
+
+            <TextView
+                android:id="@+id/forbid"
+                style="@style/wrap"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/fillx"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="5dip"
+        android:background="@drawable/content_bg"
+        android:orientation="vertical" >
+
+        <TextView
+            style="@style/wrap"
+            android:gravity="center_vertical"
+            android:text="@string/day_event"
+            android:textSize="17sp" />
+
+        <ImageView
+            style="@style/fillx"
+            android:background="@drawable/line" />
+
+        <ListView
+            android:id="@+id/today_note_list"
+            style="@style/fillx"
+            android:cacheColorHint="@null" />
+
+        <ImageView
+            style="@style/fillx"
+            android:background="@drawable/line" />
+    </LinearLayout>
+
+</merge>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+	"http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<package name="default" extends="struts-default">
+		<!--
+			<action name="save" class="org.action.SaveAction" > <result
+			name="success">/success.jsp</result> <result
+			name="error">/stu.jsp</result> </action>
+		-->
+		<action name="login" class="com.action.LoginAction">
+			<result name="success">/main.jsp</result>
+			<result name="error">/login.jsp</result>
+		</action>
+		
+		<action name="xsInfo" class="com.action.XsAction">
+			<result name="success">/xsInfo.jsp</result>
+		</action>
+		
+		<action name="updateXsInfo" class="com.action.XsAction" method="updateXsInfo">
+			<result name="success">/updateXsInfo.jsp</result>
+		</action>
+
+		<action name="updateXs" class="com.action.XsAction" method="updateXs">
+			<result name="success">/updateXs_success.jsp</result>
+		</action>
+		
+		
+		<action name="getXsKcs" class="com.action.XsAction" method="getXsKcs">
+    		<result name="success">/xsKcs.jsp</result>
+    	</action>
+    	
+    	<action name="deleteKc" class="com.action.XsAction" method="deleteKc">
+    		<result name="success">/deleteKc_success.jsp</result>
+    	</action>
+    	
+    	<action name="getAllKc" class="com.action.KcAction">
+    		<result name="success">/allKc.jsp</result>
+    	</action>
+    	
+    	<action name="selectKc" class="com.action.XsAction" method="selectKc">
+    		<result name="success">/selectKc_success.jsp</result>
+    		<result name="error">/selectKc_fail.jsp</result>
+    	</action>
+	</package>
+</struts>

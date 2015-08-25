@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/fillall"
+    android:background="#FBFBFB"
+    android:orientation="vertical" >
+
+    <ScrollView
+        style="@style/fillx"
+        android:layout_weight="1"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            style="@style/fillall"
+            android:orientation="vertical" >
+
+            <!-- Login user information -->
+
+            <LinearLayout
+                style="@style/fillx"
+                android:background="@drawable/head_bg"
+                android:gravity="center_vertical"
+                android:padding="5dip" >
+
+                <ImageView
+                    android:id="@+id/detail_publisher_user_photo"
+                    style="@style/wrap"
+                    android:layout_marginRight="5dip"
+                    android:background="@drawable/weibo_user_icon_default" />
+
+                <LinearLayout
+                    style="@style/fillall"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/detail_msg_publisher_name"
+                        style="@style/wrap"
+                        android:layout_weight="1"
+                        android:text="Publisher:"
+                        android:textColor="@color/micro_user_name_color"
+                        android:textSize="@dimen/micro_default_text_size" />
+
+                    <TextView
+                        android:id="@+id/detail_msg_publish_time"
+                        style="@style/wrap"
+                        android:layout_weight="1"
+                        android:gravity="bottom"
+                        android:text="Time:"
+                        android:textSize="@dimen/micro_default_text_size" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- message detail -->
+
+            <TextView
+                android:id="@+id/status_text"
+                style="@style/micro_msg_content" />
+
+            <LinearLayout
+                android:id="@+id/retweet_container"
+                style="@style/fillx"
+                android:layout_margin="10dip"
+                android:background="@drawable/popup"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:padding="5dip" >
+
+                <TextView
+                    android:id="@+id/retweeted_text"
+                    style="@style/micro_msg_content" />
+
+                <ImageView
+                    android:id="@+id/retweet_ic"
+                    style="@style/fillx"
+                    android:src="@drawable/weibo_detail_pic_loading" />
+
+                <RelativeLayout style="@style/fillx" >
+
+                    <TextView
+                        android:id="@+id/retweet_comments_count"
+                        style="@style/wrap"
+                        android:layout_alignParentRight="true"
+                        android:background="@drawable/weibo_btn_comment_n"
+                        android:drawableLeft="@drawable/weibo_comment_icon"
+                        android:gravity="center"
+                        android:text="..." />
+
+                    <TextView
+                        android:id="@+id/retweet_repost_count"
+                        style="@style/wrap"
+                        android:layout_marginRight="5dip"
+                        android:layout_toLeftOf="@id/retweet_comments_count"
+                        android:background="@drawable/weibo_btn_comment_n"
+                        android:drawableLeft="@drawable/weibo_redirect_icon"
+                        android:gravity="center"
+                        android:text="..." />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/status_ic"
+                style="@style/fillx"
+                android:layout_weight="1"
+                android:src="@drawable/weibo_detail_pic_loading" />
+
+            <LinearLayout
+                style="@style/fillx"
+                android:layout_margin="10dip" >
+
+                <TextView
+                    android:id="@+id/status_repost_count"
+                    style="@style/wrap"
+                    android:layout_weight="1"
+                    android:background="@drawable/weibo_detail_redirect_bt"
+                    android:gravity="center"
+                    android:text="..." />
+
+                <TextView
+                    android:id="@+id/status_comments_count"
+                    style="@style/wrap"
+                    android:layout_weight="1"
+                    android:background="@drawable/weibo_detail_comment_bt"
+                    android:gravity="center"
+                    android:text="..." />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        style="@style/fillx"
+        android:layout_marginBottom="5dip" >
+
+        <TextView
+            android:layout_width="20dip"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/new_comments"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/weibo_toolbar_bg_left_nor"
+            android:drawableTop="@drawable/weibo_toolbar_comment_icon"
+            android:gravity="center_horizontal"
+            android:text="@string/comment" />
+
+        <TextView
+            android:id="@+id/repost"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/weibo_toolbar_bg_middle_nor"
+            android:drawableTop="@drawable/weibo_toolbar_forward_icon"
+            android:gravity="center_horizontal"
+            android:text="@string/repost" />
+
+        <TextView
+            android:id="@+id/favrite"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/weibo_toolbar_bg_right_nor"
+            android:drawableTop="@drawable/weibo_toolbar_fav_icon"
+            android:gravity="center_horizontal"
+            android:text="@string/favrite" />
+
+        <TextView
+            android:layout_width="20dip"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" />
+    </LinearLayout>
+
+</LinearLayout>

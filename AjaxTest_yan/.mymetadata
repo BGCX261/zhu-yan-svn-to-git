@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="AjaxTest_yan"
+  id="myeclipse.1306584285432"
+  context-root="/AjaxTest_yan"
+  j2ee-spec="5.0"
+  archive="AjaxTest_yan.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout_Root"
+    android:layout_width="150dip"
+    android:layout_height="77dip"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout_Weather"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dip"
+        android:layout_marginTop="20dip"
+        android:background="@drawable/digital_black_green" >
+
+        <RelativeLayout
+            android:id="@+id/RelativeLayout_Weather_Current"
+            android:layout_width="fill_parent"
+            android:layout_height="30dip" >
+
+            <ImageView
+                android:id="@+id/ImageView01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/month0" >
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/ImageView02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/ImageView01"
+                android:src="@drawable/month0" >
+            </ImageView>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/RelativeLayout_Weather_Future"
+            android:layout_width="fill_parent"
+            android:layout_height="84dip"
+            android:layout_marginTop="20dip" >
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

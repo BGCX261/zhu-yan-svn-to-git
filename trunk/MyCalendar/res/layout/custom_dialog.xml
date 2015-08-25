@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    style="@style/wrap"
+    android:layout_width="295dip"
+    android:layout_gravity="center"
+    android:background="@drawable/custom_dialog_background"
+    android:orientation="vertical" >
+
+    <!-- header -->
+
+    <include layout="@layout/custom_dialog_header" />
+
+    <LinearLayout
+        style="@style/fillx"
+        android:background="@drawable/between_item_line" />
+
+    <LinearLayout
+        android:id="@+id/wrapper"
+        style="@style/fillx"
+        android:orientation="vertical" >
+
+        <!-- content -->
+
+        <FrameLayout
+            android:id="@+id/custom"
+            style="@style/fillx" />
+        <!-- footer -->
+
+        <LinearLayout
+            android:id="@+id/delimiter_line_above_button"
+            style="@style/fillx"
+            android:background="@drawable/between_item_line" />
+
+        <LinearLayout
+            android:id="@+id/buttonPanel"
+            style="@style/fillx"
+            android:layout_gravity="bottom"
+            android:padding="5dip" >
+
+            <Button
+                android:id="@+id/button1"
+                style="@style/btn_dialog"
+                android:layout_width="0dip"
+                android:layout_marginRight="10dip"
+                android:layout_weight="1"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/button3"
+                style="@style/btn_dialog"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/white"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/button2"
+                style="@style/btn_dialog"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

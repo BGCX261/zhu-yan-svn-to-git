@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <LinearLayout
+        style="@style/fillx"
+        android:background="@drawable/head_bg"
+        android:gravity="center_vertical" >
+
+        <ImageView
+            style="@style/wrap"
+            android:padding="5dip"
+            android:src="@drawable/note_title_icon" />
+
+        <TextView
+            style="@style/wrap"
+            android:layout_weight="1"
+            android:text="@string/tools" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/header"
+        style="@style/fillx"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/sina_blog"
+            style="@style/wrap"
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/sina_blog"
+            android:gravity="center"
+            android:padding="10dip"
+            android:text="@string/sina_weibo" />
+
+        <TextView
+            android:id="@+id/alarm_clock"
+            style="@style/wrap"
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/clock_alarm"
+            android:gravity="center"
+            android:padding="10dip"
+            android:text="@string/alert_title" />
+
+        <TextView
+            android:id="@+id/tool_sms"
+            style="@style/wrap"
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/tool_sms"
+            android:gravity="center"
+            android:padding="10dip"
+            android:text="@string/sms" />
+
+        <TextView
+            android:id="@+id/tool_back_up"
+            style="@style/wrap"
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/tool_back_up"
+            android:gravity="center"
+            android:padding="10dip"
+            android:text="@string/back_up" />
+    </LinearLayout>
+
+</merge>

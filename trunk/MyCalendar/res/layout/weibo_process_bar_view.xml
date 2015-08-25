@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/fillx"
+    android:gravity="center"
+    android:orientation="horizontal" >
+
+    <ProgressBar
+        style="@style/wrap"
+        android:layout_margin="5dp" />
+
+    <TextView
+        style="@style/wrap"
+        android:text="@string/loading_text" />
+
+</LinearLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/header"
+    style="@style/fillx"
+    android:background="@drawable/head_bg"
+    android:gravity="center_vertical"
+    android:paddingLeft="10dip" >
+
+    <ImageView
+        android:id="@+id/previous"
+        style="@style/wrap"
+        android:src="@drawable/previous" />
+
+    <TextView
+        android:id="@+id/date_tv"
+        style="@style/wrap"
+        android:padding="10dip"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/next"
+        style="@style/wrap"
+        android:src="@drawable/next" />
+
+    <TextView
+        style="@style/wrap"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/current_btn"
+        style="@style/wrap"
+        android:layout_marginRight="20dip"
+        android:background="@drawable/title_date_btn"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:textSize="17sp" />
+
+</LinearLayout>

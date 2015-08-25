@@ -1,0 +1,15 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#CE0000" >
+
+    <TextView
+        android:id="@+id/view1"
+        android:layout_width="match_parent"
+        android:layout_height="40dip"
+        android:padding="@dimen/padding_medium"
+        android:text="@string/hello_world"
+        android:textColor="#000000" />
+
+</LinearLayout>

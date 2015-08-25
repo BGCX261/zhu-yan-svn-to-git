@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/fillall"
+    android:background="@drawable/weibo_item_view_click"
+    android:orientation="vertical"
+    android:paddingBottom="5dp"
+    android:paddingTop="5dp" >
+
+    <LinearLayout style="@style/fillx" >
+
+        <TextView
+            android:id="@+id/user_name"
+            style="@style/wrap"
+            android:layout_weight="1"
+            android:textColor="#46A3FF" />
+
+        <TextView
+            android:id="@+id/date"
+            style="@style/wrap" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/comment_content"
+        style="@style/micro_msg_content"
+        android:textColor="#000000" />
+
+</LinearLayout>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/clock_root"
+    style="@style/fillall"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        style="@style/fillx"
+        android:background="@drawable/head_bg"
+        android:gravity="center_vertical" >
+
+        <TextView
+            style="@style/wrap"
+            android:layout_margin="5dip"
+            android:padding="5dip"
+            android:text="闹钟" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/fillx"
+        android:padding="10dip" >
+
+        <ImageView
+            style="@style/wrap"
+            android:src="@drawable/clock_photo_clock" />
+
+        <LinearLayout
+            style="@style/fillx"
+            android:orientation="vertical" >
+
+            <TextView
+                style="@style/fillx"
+                android:layout_height="0dip"
+                android:layout_weight="1"
+                android:text="距下次响铃时间为："
+                android:textSize="22sp" />
+
+            <LinearLayout
+                style="@style/fillx"
+                android:layout_height="0dip"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:id="@+id/number_hour_or_day"
+                    style="@style/wrap"
+                    android:text="10"
+                    android:textSize="22sp" />
+
+                <TextView
+                    android:id="@+id/hour_or_day"
+                    style="@style/wrap"
+                    android:text="小时"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/number_minute_or_hour"
+                    style="@style/wrap"
+                    android:text="10"
+                    android:textSize="22sp" />
+
+                <TextView
+                    android:id="@+id/minute_or_hour"
+                    style="@style/wrap"
+                    android:text="分"
+                    android:textSize="16sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/fillx"
+        android:layout_weight="1" >
+
+        <ListView
+            android:id="@+id/list"
+            style="@style/fillx" >
+        </ListView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/add_alarm_clock"
+        style="@style/fillx"
+        android:background="@drawable/head_bg"
+        android:gravity="center" >
+
+        <ImageView
+            style="@style/wrap"
+            android:src="@drawable/clock_add_d" />
+
+        <TextView
+            style="@style/wrap"
+            android:text="添加新闹钟"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</LinearLayout>

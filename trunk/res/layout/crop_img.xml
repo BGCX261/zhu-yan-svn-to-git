@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <com.view.crop.CropImageView
+        android:id="@+id/crop_img"
+        style="@style/fillx"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        style="@style/fillx"
+        android:minHeight="40dip" >
+
+        <CheckedTextView
+            android:id="@+id/same_scale"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:checkMark="@drawable/pref_radio"
+            android:checked="true"
+            android:gravity="center"
+            android:text="same_scale" />
+
+        <CheckedTextView
+            android:id="@+id/img_scale"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:checkMark="@drawable/pref_radio"
+            android:gravity="center"
+            android:text="img scale" />
+
+        <CheckedTextView
+            android:id="@+id/hide"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:checkMark="@drawable/pref_radio"
+            android:gravity="center"
+            android:text="hide" />
+    </LinearLayout>
+
+</LinearLayout>

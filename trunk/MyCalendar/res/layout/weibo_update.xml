@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/fillall"
+    android:background="#fff"
+    android:orientation="vertical" >
+
+    <!-- Login user information -->
+
+    <LinearLayout
+        style="@style/fillx"
+        android:background="@drawable/head_bg"
+        android:gravity="center_vertical"
+        android:padding="10dip" >
+
+        <TextView
+            android:id="@+id/back"
+            style="@style/wrap"
+            android:layout_marginLeft="5dip"
+            android:background="@drawable/title_date_btn"
+            android:text="@string/back" />
+
+        <TextView
+            android:id="@+id/name"
+            style="@style/wrap"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/update"
+            style="@style/wrap"
+            android:layout_marginRight="5dip"
+            android:background="@drawable/title_date_btn"
+            android:text="@string/publish" />
+    </LinearLayout>
+
+    <com.cc.software.calendar.view.EmotionEditText
+        android:id="@+id/weibo_content"
+        style="@style/fillx"
+        android:layout_weight="1"
+        android:background="@drawable/text_box_bg"
+        android:capitalize="sentences"
+        android:gravity="top"
+        android:lineSpacingExtra="5dip"
+        android:textColor="@color/black"
+        android:textSize="22dip" />
+
+    <LinearLayout
+        android:id="@+id/bottom_bar"
+        style="@style/fillx"
+        android:background="@drawable/weibo_toolbar_nor" >
+
+        <CheckBox
+            android:id="@+id/check"
+            style="@style/wrap"
+            android:gravity="center_vertical"
+            android:padding="5dip" />
+
+        <TextView
+            android:id="@+id/memo"
+            style="@style/fillx"
+            android:textColor="#000000"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+</LinearLayout>

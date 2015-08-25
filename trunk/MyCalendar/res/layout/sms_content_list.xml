@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/fillall"
+    android:orientation="vertical" >
+
+    <!-- TODO: this page have to copy layout styles from multi selection -->
+
+    <FrameLayout
+        android:id="@+id/sms_content"
+        style="@style/fillx"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:id="@+id/list_container"
+            style="@style/fillx"
+            android:orientation="vertical" >
+
+            <ListView
+                android:id="@+id/list"
+                style="@style/list" />
+
+            <ImageView
+                style="@style/fillx"
+                android:background="@drawable/between_item_line" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/empty"
+            style="@style/fillall"
+            android:gravity="center"
+            android:text="@string/no_content"
+            android:textColor="@color/white"
+            android:textSize="24dip" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/myLine"
+        style="@style/fillx"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            style="@style/fillx"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/sort_by_contact"
+                style="@style/wrap"
+                android:layout_weight="1"
+                android:background="@drawable/weibo_toolbar_bg_left_nor"
+                android:enabled="false"
+                android:gravity="center"
+                android:paddingLeft="10dip"
+                android:singleLine="true"
+                android:text="@string/sort_by_contact"
+                android:textColor="@color/a00_state_color1" />
+
+            <TextView
+                android:id="@+id/sort_by_date"
+                style="@style/wrap"
+                android:layout_weight="1"
+                android:background="@drawable/weibo_toolbar_bg_middle_nor"
+                android:gravity="center"
+                android:minWidth="80dip"
+                android:paddingLeft="10dip"
+                android:singleLine="true"
+                android:text="@string/sort_by_date"
+                android:textColor="@color/a00_state_color1" />
+            <!-- <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="60dip" /> -->
+
+            <TextView
+                android:id="@+id/no_read"
+                style="@style/wrap"
+                android:layout_weight="1"
+                android:background="@drawable/weibo_toolbar_bg_right_nor"
+                android:gravity="center"
+                android:minWidth="80dip"
+                android:paddingLeft="10dip"
+                android:singleLine="true"
+                android:text="@string/sms_no_read"
+                android:textColor="@color/a00_state_color1" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

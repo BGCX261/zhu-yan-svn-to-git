@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainpane"
+    style="@style/fillall"
+    android:fillViewport="true"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        style="@style/fillx"
+        android:background="@drawable/head_bg" >
+
+        <TextView
+            android:id="@+id/current_date_info"
+            style="@style/fillx"
+            android:gravity="center_vertical"
+            android:padding="10dip"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <TableLayout
+        android:id="@+id/root"
+        style="@style/fillx"
+        android:orientation="vertical" >
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/empty"
+        style="@style/fillall"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/no_huang_calender_info"
+        android:textColor="@color/red"
+        android:textSize="24sp"
+        android:visibility="gone" />
+
+</LinearLayout>

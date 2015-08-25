@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="micro_default_text_size">13dp</dimen>
+    <dimen name="micro_content_text_size">15dp</dimen>
+    <dimen name="micro_user_photo_size">25dp</dimen>
+
+    <color name="micro_user_name_color">#007500</color>
+
+    <dimen name="wheel_text_size">24sp</dimen>
+
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/fillall" android:background="@drawable/record_bg">
+    <LinearLayout style="@style/fillx" android:gravity="center"
+        android:orientation="vertical" android:layout_alignParentTop="true"
+        android:id="@+id/top">
+        <TextView style="@style/fillx" android:text="@string/press_key_record"
+            android:gravity="center" android:layout_marginTop="30dip"
+            android:textSize="30sp" />
+        <SeekBar style="@style/fillx" android:id="@+id/seekbar"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/fillx" android:gravity="center"
+        android:background="@drawable/head_bg" android:id="@+id/bottom"
+        android:layout_alignParentBottom="true">
+        <ImageView style="@style/wrap" android:layout_width="0dip"
+            android:id="@+id/btn_record" android:layout_weight="1"
+            android:src="@drawable/record_start_button" />
+        <ImageView android:id="@+id/btn_play" style="@style/wrap"
+            android:layout_width="0dip" android:layout_weight="1"
+            android:src="@drawable/record_play_button" />
+        <ImageView android:id="@+id/btn_stop" style="@style/wrap"
+            android:layout_width="0dip" android:layout_weight="1"
+            android:src="@drawable/record_stop_button" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/fillx" android:gravity="center"
+        android:layout_above="@id/bottom" android:layout_below="@id/top">
+        <ImageView android:id="@+id/minite_ten" style="@style/wrap"
+            android:src="@drawable/n0" />
+        <ImageView android:id="@+id/minite_one" style="@style/wrap"
+            android:src="@drawable/n0" />
+        <ImageView style="@style/wrap" android:src="@drawable/point_time" />
+        <ImageView android:id="@+id/second_ten" style="@style/wrap"
+            android:src="@drawable/n0" />
+        <ImageView android:id="@+id/second_one" style="@style/wrap"
+            android:src="@drawable/n0" />
+    </LinearLayout>
+</RelativeLayout>

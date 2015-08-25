@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.view.tab.TabStrip xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/top"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/tab_container_bg" >
+
+        <com.view.tab..HScrollView
+            android:id="@+id/tab_scroller"
+            style="@style/wrap"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:fadingEdge="horizontal"
+            android:scrollbars="none" >
+
+            <com.view.tab..TabRelativeLayout
+                android:id="@+id/tab_container"
+                style="@style/wrap" />
+        </com.view.tab..HScrollView>
+
+        <ImageView
+            android:id="@+id/new_tab"
+            style="@style/wrap" />
+    </LinearLayout>
+
+</com.view.tab.TabStrip>

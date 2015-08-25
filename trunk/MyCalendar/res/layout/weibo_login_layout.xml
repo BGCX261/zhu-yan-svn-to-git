@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/fillall"
+    android:background="#F6F6F6"
+    android:paddingLeft="20dip"
+    android:paddingRight="20dip" >
+
+    <LinearLayout
+        style="@style/fillall"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/weibo_micro_blog_logo" >
+        </ImageView>
+
+        <TextView
+            style="@style/fillx"
+            android:layout_marginBottom="20dip"
+            android:gravity="center_vertical"
+            android:text="@string/user_name"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/username"
+            style="@style/website_et"
+            android:layout_marginBottom="20dip"
+            android:background="@drawable/url_bar_fake_edittext"
+            android:hint="@string/input_user_name"
+            android:maxLength="50"
+            android:text="ftyan805614@gmail.com" />
+
+        <TextView
+            style="@style/fillx"
+            android:gravity="center_vertical"
+            android:text="@string/password"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/pwd"
+            style="@style/website_et"
+            android:layout_marginBottom="30dip"
+            android:background="@drawable/url_bar_fake_edittext"
+            android:hint="@string/input_password"
+            android:inputType="textPassword"
+            android:maxLength="20"
+            android:password="true"
+            android:text="yan08051010" />
+
+        <LinearLayout
+            android:id="@+id/auto_line"
+            style="@style/fillx"
+            android:background="@drawable/text_box_bg" >
+
+            <TextView
+                style="@style/wrap"
+                android:layout_weight="1"
+                android:text="@string/auto_login" />
+
+            <CheckBox
+                android:id="@+id/auto_login"
+                style="@style/wrap" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/fillx"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="10dip"
+        android:paddingBottom="60dip"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip" >
+
+        <TextView
+            android:id="@+id/login"
+            style="@style/website_menu_tv"
+            android:text="登录" />
+
+        <TextView
+            android:id="@+id/login_cancel"
+            style="@style/website_menu_tv"
+            android:layout_marginLeft="5dip"
+            android:text="取消" />
+    </LinearLayout>
+
+</RelativeLayout><!--
+ <?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/weibo_login_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    android:weightSum="1" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.49"
+        android:orientation="vertical"
+        android:weightSum="1" >
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/weibo_micro_blog_logo" >
+        </ImageView>
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="用户名:"
+            android:textColor="#000"
+            android:textSize="18dp" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ftyan805614@gmail.com" >
+
+            <requestFocus >
+            </requestFocus>
+        </EditText>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="密码:"
+            android:textColor="#000"
+            android:textSize="18dp" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/pwd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:text="yan08051010" >
+        </EditText>
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:text="登录" >
+            </Button>
+
+            <Button
+                android:id="@+id/login_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:layout_toLeftOf="@+id/login"
+                android:text="取消" >
+            </Button>
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>
+-->

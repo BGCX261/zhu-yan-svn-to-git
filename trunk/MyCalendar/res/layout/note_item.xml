@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/fillx"
+    android:gravity="center_vertical" >
+
+    <ImageView
+        android:id="@+id/icon"
+        style="@style/wrap"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip" />
+
+    <LinearLayout
+        style="@style/wrap"
+        android:orientation="vertical"
+        android:paddingBottom="10dip"
+        android:paddingTop="10dip" >
+
+        <TextView
+            android:id="@+id/title"
+            style="@style/wrap"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textSize="17sp" />
+
+        <LinearLayout style="@style/wrap" >
+
+            <TextView
+                android:id="@+id/file_count"
+                style="@style/wrap"
+                android:layout_marginRight="15dip" />
+
+            <TextView
+                android:id="@+id/last_edit_time"
+                style="@style/wrap" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

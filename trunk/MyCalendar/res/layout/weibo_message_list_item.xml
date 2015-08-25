@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/fillall"
+    android:background="@drawable/weibo_item_view_click"
+    android:orientation="vertical"
+    android:paddingBottom="5dp"
+    android:paddingTop="5dp" >
+
+    <!-- message publisher info -->
+
+    <LinearLayout style="@style/fillx" >
+
+        <!-- publisher photo -->
+
+        <ImageView
+            android:id="@+id/info_user_photo"
+            android:layout_width="@dimen/micro_user_photo_size"
+            android:layout_height="@dimen/micro_user_photo_size"
+            android:layout_margin="5dp" />
+
+        <!-- message info -->
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            style="@style/wrap"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/info_user"
+                style="@style/wrap"
+                android:layout_weight="1"
+                android:gravity="top"
+                android:text="TextView"
+                android:textColor="@color/micro_user_name_color"
+                android:textSize="@dimen/micro_default_text_size" />
+
+            <TextView
+                android:id="@+id/info_publish_time"
+                style="@style/wrap"
+                android:layout_weight="1"
+                android:gravity="bottom"
+                android:text="TextView"
+                android:textSize="@dimen/micro_default_text_size" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/status_icon"
+            style="@style/wrap" />
+    </LinearLayout>
+
+    <!-- message main content -->
+
+    <LinearLayout style="@style/fillx" >
+
+        <TextView
+            android:id="@+id/info_content_shot"
+            style="@style/micro_msg_content"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:id="@+id/chat_icon"
+            style="@style/wrap"
+            android:src="@drawable/weibo_chat_pic_loading" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/info_content_shot1"
+        style="@style/micro_msg_content"
+        android:layout_weight="1"
+        android:background="@drawable/popup" />
+
+</LinearLayout>

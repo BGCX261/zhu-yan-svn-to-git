@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/alarm_setting_root"
+    style="@style/fillall"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        style="@style/fillx"
+        android:background="@drawable/head_bg"
+        android:gravity="center_vertical" >
+
+        <TextView
+            style="@style/wrap"
+            android:layout_margin="5dip"
+            android:padding="5dip"
+            android:text="闹钟" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/fillx" >
+
+        <ListView
+            android:id="@+id/hour_list"
+            style="@style/wrap"
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:background="@drawable/time_left_bg"
+            android:divider="@null"
+            android:cacheColorHint="@null" >
+        </ListView>
+
+        <ListView
+            android:id="@+id/minute_list"
+            style="@style/wrap"
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:divider="@null"
+            android:background="@drawable/time_right_bg"
+            android:cacheColorHint="@null" >
+        </ListView>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/fillx"
+        android:background="@drawable/tpl_field_middle_normal"
+        android:gravity="center"
+        android:padding="10dip" >
+
+        <ImageView
+            style="@style/wrap"
+            android:src="@drawable/tpl_field_ico_time" />
+
+        <TextView
+            style="@style/wrap"
+            android:text="响铃周期："
+            android:textSize="16sp" />
+
+        <TextView
+            style="@style/wrap"
+            android:layout_weight="1"
+            android:text="周一至周五"
+            android:textSize="16sp" />
+
+        <ImageView
+            style="@style/wrap"
+            android:src="@drawable/tpl_field_right_bg" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/fillx"
+        android:background="@drawable/tpl_field_middle_normal"
+        android:gravity="center"
+        android:padding="10dip" >
+
+        <ImageView
+            style="@style/wrap"
+            android:src="@drawable/tpl_field_ico_pre" />
+
+        <TextView
+            style="@style/wrap"
+            android:text="小睡次数："
+            android:textSize="16sp" />
+
+        <TextView
+            style="@style/wrap"
+            android:layout_weight="1"
+            android:text="15次"
+            android:textSize="16sp" />
+
+        <ImageView
+            style="@style/wrap"
+            android:src="@drawable/tpl_field_right_bg" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/fillx"
+        android:background="@drawable/tpl_field_bottom_normal"
+        android:gravity="center"
+        android:padding="10dip" >
+
+        <ImageView
+            style="@style/wrap"
+            android:src="@drawable/tpl_field_ico_pre" />
+
+        <TextView
+            style="@style/wrap"
+            android:text="贪睡时间："
+            android:textSize="16sp" />
+
+        <TextView
+            style="@style/wrap"
+            android:layout_weight="1"
+            android:text="5分钟"
+            android:textSize="16sp" />
+
+        <ImageView
+            style="@style/wrap"
+            android:src="@drawable/tpl_field_right_bg" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/fillx"
+        android:background="@drawable/tpl_field_top_normal"
+        android:gravity="center"
+        android:padding="10dip" >
+
+        <ImageView
+            style="@style/wrap"
+            android:src="@drawable/tpl_field_ico_ring" />
+
+        <TextView
+            style="@style/wrap"
+            android:text="铃声设置："
+            android:textSize="16sp" />
+
+        <TextView
+            style="@style/wrap"
+            android:layout_weight="1"
+            android:text="*****"
+            android:textSize="16sp" />
+
+        <ImageView
+            style="@style/wrap"
+            android:src="@drawable/tpl_field_right_bg" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/fillx"
+        android:background="@drawable/tpl_field_middle_normal"
+        android:gravity="center"
+        android:padding="10dip" >
+
+        <ImageView
+            style="@style/wrap"
+            android:src="@drawable/tpl_field_ico_title" />
+
+        <TextView
+            style="@style/wrap"
+            android:text="闹钟标题："
+            android:textSize="16sp" />
+
+        <TextView
+            style="@style/wrap"
+            android:layout_weight="1"
+            android:text="-------"
+            android:textSize="16sp" />
+
+        <ImageView
+            style="@style/wrap"
+            android:src="@drawable/tpl_field_right_bg" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/fillx"
+        android:background="@drawable/tpl_field_bottom_normal"
+        android:gravity="center"
+        android:padding="10dip" >
+
+        <ImageView
+            style="@style/wrap"
+            android:src="@drawable/tpl_field_ico_note" />
+
+        <TextView
+            style="@style/wrap"
+            android:text="备忘信息："
+            android:textSize="16sp" />
+
+        <TextView
+            style="@style/wrap"
+            android:layout_weight="1"
+            android:text="-------"
+            android:textSize="16sp" />
+
+        <ImageView
+            style="@style/wrap"
+            android:src="@drawable/tpl_field_right_bg" />
+    </LinearLayout>
+
+    <TextView
+        style="@style/wrap"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        style="@style/fillx"
+        android:background="@drawable/head_bg"
+        android:gravity="center" >
+
+        <TextView
+            style="@style/wrap"
+            android:text="保存闹钟"
+            android:textSize="22sp" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="melibrary.com.genuitec.eclipse.j2eedt.core.MYECLIPSE_JAVAEE_5_CONTAINER"/>
+	<classpathentry kind="lib" path="J:/study/大三下/J2EE/struts-2.0.14/bijia/commons-logging-1.0.4.jar"/>
+	<classpathentry kind="lib" path="J:/study/大三下/J2EE/struts-2.0.14/bijia/freemarker-2.3.8.jar"/>
+	<classpathentry kind="lib" path="J:/study/大三下/J2EE/struts-2.0.14/bijia/ognl-2.6.11.jar"/>
+	<classpathentry kind="lib" path="J:/study/大三下/J2EE/struts-2.0.14/bijia/struts2-core-2.0.14.jar"/>
+	<classpathentry kind="lib" path="J:/study/大三下/J2EE/struts-2.0.14/bijia/xwork-2.0.7.jar"/>
+	<classpathentry kind="lib" path="J:/赛杰/驱动包/mysql驱动/mysql-connector-java-5.0.0-beta-bin.jar"/>
+	<classpathentry kind="output" path="WebRoot/WEB-INF/classes"/>
+</classpath>

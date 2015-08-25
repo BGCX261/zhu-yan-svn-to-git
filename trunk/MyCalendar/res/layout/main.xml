@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout_Root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout_main"
+        android:layout_width="150dip"
+        android:layout_height="77dip"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/bg_appwidget_error"
+        android:gravity="bottom" >
+
+        <RelativeLayout
+            android:id="@+id/RelativeLayout_AM_PM"
+            android:layout_width="35dip"
+            android:layout_height="50dip"
+            android:gravity="center_vertical" >
+
+            <TextView
+                android:id="@+id/TextView_AM_PM"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="上午"
+                android:textColor="#B52C31" >
+            </TextView>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/RelativeLayout_Time"
+            android:layout_width="wrap_content"
+            android:layout_height="50dip"
+            android:layout_toRightOf="@+id/RelativeLayout_AM_PM" >
+
+            <ImageView
+                android:id="@+id/ImageView_Hour0"
+                android:layout_width="15dip"
+                android:layout_height="fill_parent"
+                android:layout_gravity="bottom"
+                android:src="@drawable/number_pink0" >
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/ImageView_Hour1"
+                android:layout_width="15dip"
+                android:layout_height="fill_parent"
+                android:layout_gravity="bottom"
+                android:layout_toRightOf="@+id/ImageView_Hour0"
+                android:src="@drawable/number_pink0" >
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/ImageView_Split"
+                android:layout_width="8dip"
+                android:layout_height="fill_parent"
+                android:layout_gravity="bottom"
+                android:layout_toRightOf="@+id/ImageView_Hour1"
+                android:src="@drawable/f17" >
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/ImageView_Min0"
+                android:layout_width="15dip"
+                android:layout_height="fill_parent"
+                android:layout_gravity="bottom"
+                android:layout_toRightOf="@+id/ImageView_Split"
+                android:src="@drawable/number_pink0" >
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/ImageView_Min1"
+                android:layout_width="15dip"
+                android:layout_height="fill_parent"
+                android:layout_gravity="bottom"
+                android:layout_toRightOf="@+id/ImageView_Min0"
+                android:src="@drawable/number_pink0" >
+            </ImageView>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/RelativeLayout_Mon_Week"
+            android:layout_width="40dip"
+            android:layout_height="50dip"
+            android:layout_toRightOf="@+id/RelativeLayout_Time"
+            android:gravity="center_vertical" >
+
+            <TextView
+                android:id="@+id/TextView_Mon_Day"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="7/26"
+                android:textColor="#B52C31"
+                android:textSize="16dip" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/TextView_Week"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/TextView_Mon_Day"
+                android:text="周日"
+                android:textColor="#B52C31"
+                android:textSize="16dip" >
+            </TextView>
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/back_root"
+    style="@style/fillall"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/fillx"
+        android:layout_gravity="center"
+        android:background="@drawable/head_bg"
+        android:gravity="center"
+        android:padding="10dip"
+        android:text="@string/communication_note_back"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:id="@+id/sync"
+        style="@style/fillx"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:layout_marginTop="20dip"
+        android:background="@drawable/sync_list_button" >
+
+        <ImageView
+            style="@style/wrap"
+            android:padding="10dip"
+            android:src="@drawable/sync_backup_normal" />
+
+        <LinearLayout
+            style="@style/wrap"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/back_up_high"
+                style="@style/fillx"
+                android:text="@string/back_up_contacts"
+                android:textColor="@color/black"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/back_up_low"
+                style="@style/fillx"
+                android:text="@string/back_up_contact_to_net"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/recover"
+        style="@style/fillx"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:layout_marginTop="20dip"
+        android:background="@drawable/sync_list_button" >
+
+        <ImageView
+            style="@style/wrap"
+            android:padding="10dip"
+            android:src="@drawable/sync_recover_normal" />
+
+        <LinearLayout
+            style="@style/wrap"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/recover_high"
+                style="@style/fillx"
+                android:text="@string/recover_contacts"
+                android:textColor="@color/black"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/recover_low"
+                style="@style/fillx"
+                android:text="@string/recover_contact_from_net"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        style="@style/wrap"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        style="@style/fillx"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/back_up_contact"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/weibo_toolbar_bg_left_nor"
+            android:enabled="false"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="@string/contact"
+            android:textColor="@color/a00_state_color1" />
+
+        <TextView
+            android:id="@+id/back_up_sms"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/weibo_toolbar_bg_right_nor"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="@string/sms"
+            android:textColor="@color/a00_state_color1" />
+
+        <TextView
+            android:id="@+id/back_up_note"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/weibo_toolbar_bg_right_nor"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="@string/note_view"
+            android:textColor="@color/a00_state_color1"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</LinearLayout>

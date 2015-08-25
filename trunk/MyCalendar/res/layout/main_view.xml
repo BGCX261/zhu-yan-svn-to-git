@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/wrapper"
+    style="@style/fillall"
+    android:orientation="vertical" >
+
+    <com.cc.software.calendar.view.ViewContainer
+        android:id="@+id/container"
+        style="@style/fillx"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        style="@style/fillx"
+        android:background="#393938"
+        android:gravity="center"
+        android:padding="5dip" >
+
+        <ImageView
+            android:id="@+id/day_view"
+            style="@style/wrap"
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:src="@drawable/day_view_button" />
+
+        <ImageView
+            android:id="@+id/month_view"
+            style="@style/wrap"
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:src="@drawable/month_view_button" />
+
+        <ImageView
+            android:id="@+id/note_tv"
+            style="@style/wrap"
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:src="@drawable/note_view_button" />
+
+        <ImageView
+            android:id="@+id/more_tv"
+            style="@style/wrap"
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:src="@drawable/entertainment_button" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/fillall"
+    android:background="#fff"
+    android:orientation="vertical" >
+
+    <!-- Login user information -->
+
+    <LinearLayout
+        style="@style/fillx"
+        android:background="@drawable/head_bg"
+        android:gravity="center_vertical"
+        android:padding="10dip" >
+
+        <ImageView
+            android:id="@+id/refresh_weibo"
+            style="@style/wrap"
+            android:src="@drawable/weibo_refresh_btn" />
+
+        <TextView
+            android:id="@+id/name"
+            style="@style/wrap"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center" />
+
+        <ImageView
+            android:id="@+id/post_new_weibo"
+            style="@style/wrap"
+            android:src="@drawable/weibo_post_new_btn" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/fillx"
+        android:visibility="gone" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            style="@style/wrap"
+            android:orientation="vertical"
+            android:padding="5dp" >
+
+            <ImageView
+                android:id="@+id/login_user_photo"
+                android:layout_width="50dip"
+                android:layout_height="50dip"
+                android:background="@drawable/icon" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            style="@style/fillall"
+            android:orientation="vertical"
+            android:padding="5dp" >
+
+            <TextView
+                android:id="@+id/name"
+                style="@style/wrap"
+                android:layout_weight="1"
+                android:textColor="#000" />
+
+            <TextView
+                android:id="@+id/userId"
+                style="@style/wrap"
+                android:layout_weight="1"
+                android:gravity="bottom"
+                android:text="ID: "
+                android:textColor="#000" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Display MicroBlog message list -->
+
+    <com.cc.software.calendar.view.PullToRefreshListView
+        android:id="@+id/infor_list"
+        style="@style/fillx"
+        android:layout_weight="1"
+        android:background="#FFF"
+        android:cacheColorHint="#FFF"
+        android:divider="@null" />
+
+</LinearLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/base_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginTop="6dip"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/clock_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dip"
+        android:gravity="center"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@drawable/between_item_line" />
+
+        <ListView
+            android:id="@+id/alarms_list"
+            style="@style/fillx"
+            android:cacheColorHint="#00000000"
+            android:divider="@drawable/between_item_line"
+            android:scrollbars="none" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@drawable/between_item_line" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/fillx" >
+
+        <TextView
+            android:id="@+id/add_alarm_clock"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/weibo_toolbar_bg_left_nor"
+            android:gravity="center"
+            android:text="@string/add_alarm"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/show_hide"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/weibo_toolbar_bg_middle_nor"
+            android:gravity="center"
+            android:text="@string/show_clock"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/setting"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/weibo_toolbar_bg_right_nor"
+            android:gravity="center"
+            android:text="@string/settings"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</LinearLayout>

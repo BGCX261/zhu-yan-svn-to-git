@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">插件式日历</string>
+    <string name="day_view">日视图</string>
+    <string name="month_view">月视图</string>
+    <string name="note_view">记事</string>
+    <string name="setting">设置</string>
+    <string name="today">今日</string>
+    <string name="current_month">当月</string>
+    <string name="january">正月</string>
+    <string name="february">二月</string>
+    <string name="march">三月</string>
+    <string name="april">四月</string>
+    <string name="may">五月</string>
+    <string name="june">六月</string>
+    <string name="july">七月</string>
+    <string name="auguest">八月</string>
+    <string name="september">九月</string>
+    <string name="october">十月</string>
+    <string name="november">冬月</string>
+    <string name="december">腊月</string>
+    <string name="one">初一</string>
+    <string name="two">初二</string>
+    <string name="three">初三</string>
+    <string name="four">初四</string>
+    <string name="five">初五</string>
+    <string name="six">初六</string>
+    <string name="seven">初七</string>
+    <string name="eight">初八</string>
+    <string name="nine">初九</string>
+    <string name="ten">初十</string>
+    <string name="eleven">十一</string>
+    <string name="twelve">十二</string>
+    <string name="thirteen">十三</string>
+    <string name="fourteen">十四</string>
+    <string name="fifteen">十五</string>
+    <string name="sixteen">十六</string>
+    <string name="seventeen">十七</string>
+    <string name="eighteen">十八</string>
+    <string name="nineteen">十九</string>
+    <string name="twenty">廿十</string>
+    <string name="twenty_one">廿一</string>
+    <string name="twenty_two">廿二</string>
+    <string name="twenty_three">廿三</string>
+    <string name="twenty_four">廿四</string>
+    <string name="twenty_five">廿五</string>
+    <string name="twenty_six">廿六</string>
+    <string name="twenty_seven">廿七</string>
+    <string name="twenty_eight">廿八</string>
+    <string name="twenty_nine">廿九</string>
+    <string name="thirty">三十</string>
+    <string name="rain_water">雨水</string>
+    <string name="spring_equinox">春分</string>
+    <string name="grain_rain">谷雨</string>
+    <string name="summer_full">夏满</string>
+    <string name="summer_solstice">夏至</string>
+    <string name="greate_heat">大暑</string>
+    <string name="end_heat">处暑</string>
+    <string name="automn_equinox">秋分</string>
+    <string name="frost_drop">霜降</string>
+    <string name="small_snow">小雪</string>
+    <string name="winter_solstice">冬至</string>
+    <string name="big_cold">大寒</string>
+    <string name="spring_coming">立春</string>
+    <string name="excited_insects">惊蛰</string>
+    <string name="clear_bright">清明</string>
+    <string name="summer_coming">立夏</string>
+    <string name="busy_breed">芒种</string>
+    <string name="small_heat">小暑</string>
+    <string name="automn_coming">立秋</string>
+    <string name="white_dem">白露</string>
+    <string name="cold_dem">寒露</string>
+    <string name="winter_coming">立冬</string>
+    <string name="big_snow">大雪</string>
+    <string name="small_cold">小寒</string>
+    <string name="new_year_day">元旦</string>
+    <string name="lover_day">情人节</string>
+    <string name="woman_day">妇女节</string>
+    <string name="arbor_day">植树节</string>
+    <string name="april_fool_day">愚人节</string>
+    <string name="labour_day">劳动节</string>
+    <string name="youth_day">青年节</string>
+    <string name="children_day">儿童节</string>
+    <string name="cpc_founding_day">建党节</string>
+    <string name="army_day">建军节</string>
+    <string name="teacher_day">教师节</string>
+    <string name="national_day">国庆节</string>
+    <string name="christmas_eve">平安夜</string>
+    <string name="christmas_day">圣诞节</string>
+    <string name="spring_festival">春节</string>
+    <string name="lantern_estival">元宵节</string>
+    <string name="dragon_boat_festival">端午节</string>
+    <string name="new_year_eve">除夕</string>
+    <string name="dead_spirit_festval">中元节</string>
+    <string name="mid_automn_day">中秋节</string>
+    <string name="double_ninth_day">重阳节</string>
+    <string name="sunday">周日</string>
+    <string name="monday">周一</string>
+    <string name="tuesday">周二</string>
+    <string name="wednesday">周三</string>
+    <string name="thursday">周四</string>
+    <string name="friday">周五</string>
+    <string name="saturday">周六</string>
+    <string name="huang_calender">黄历</string>
+    <string name="day">日</string>
+    <string name="day_event">该日事件</string>
+    <string name="look_up_day_info">查看该日黄历信息</string>
+    <string name="add_text_note">文本记事</string>
+    <string name="add_image_note">图片记事</string>
+    <string name="add_record_note">录音记事</string>
+    <string name="add_video_note">视频记事</string>
+    <string name="huang_calendar_info">黄历信息</string>
+    <string name="tradition_calendar">农历：</string>
+    <string name="ganzhi">干支：</string>
+    <string name="fitting">宜：</string>
+    <string name="forbid">忌：</string>
+    <string name="jishenyiqu">吉神宜趋：</string>
+    <string name="xiongshenyiji">凶神宜忌：</string>
+    <string name="todaytaishenzhanfang">每日胎神占方：</string>
+    <string name="wuhang">五行：</string>
+    <string name="chong">冲：</string>
+    <string name="pengzubaiji">彭祖白忌：</string>
+    <string name="file_count">文件数：</string>
+    <string name="last_edit">最后编辑 ：</string>
+    <string name="file_size">文件大小：</string>
+    <string name="byte_unit">Byte</string>
+    <string name="kilo_byte">Kb</string>
+    <string name="million_byte">M</string>
+    <string name="note_save">保存</string>
+    <string name="notepad">记事本</string>
+    <string name="press_key_record">按键录音</string>
+    <string name="record_finish">录音结束</string>
+    <string name="record_listening">正在试听录音</string>
+    <string name="confirm_delete">确认删除吗？</string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="loading_text">载入...</string>
+    <string name="title_not_can_not_null">请输入记事标题</string>
+    <string name="content_not_can_not_null">请输入记事内容</string>
+    <string name="note_viewer">查看</string>
+    <string name="note_delete">删除</string>
+    <string name="note_edit">编辑</string>
+
+    <string-array name="folder_name">
+        <item>文本文件夹</item>
+        <item>图像文件夹</item>
+        <item>录音文件夹</item>
+        <item>视频文件夹</item>
+    </string-array>
+    <string-array name="calendar_title">
+        <item>农历：</item>
+        <item>干支：</item>
+        <item>宜：</item>
+        <item>忌：</item>
+        <item>吉神宜趋：</item>
+        <item>胎神占方：</item>
+        <item>五行：</item>
+        <item>冲：</item>
+        <item>彭祖白忌：</item>
+    </string-array>
+
+    <string name="back_up_contacts">备份联系人</string>
+    <string name="back_up_contact_to_net">将手机联系人备份至网络</string>
+    <string name="back_up_sms">备份短信</string>
+    <string name="back_up_sms_to_net">将手机短信备份至网络</string>
+    <string name="back_up_note">备份记事</string>
+    <string name="back_up_note_to_net">将手机记事备份至网络</string>
+    <string name="recover_contacts">恢复联系人</string>
+    <string name="recover_contact_from_net">将网络联系人恢复至手机</string>
+    <string name="recover_sms">恢复短信</string>
+    <string name="recover_sms_from_net">将网络短信恢复至手机</string>
+    <string name="recover_note">恢复记事</string>
+    <string name="recover_note_from_net">将网络记事恢复至手机</string>
+    <string name="operate_success">操作成功</string>
+
+    <!-- 闹钟 -->
+    <string name="add_alarm">"添加闹钟"</string>
+    <string name="delete_alarm">"取消闹钟"</string>
+    <string name="delete_alarm_confirm">"将会删除此闹铃。"</string>
+    <string name="show_clock">"显示时钟"</string>
+    <string name="hide_clock">"隐藏时钟"</string>
+    <string name="label">"标签"</string>
+    <string name="default_label">"闹铃"</string>
+    <string name="set_alarm">"设置闹钟"</string>
+    <string name="enable">"开启闹钟"</string>
+    <string name="alarm_vibrate">"振动"</string>
+    <string name="alarm_repeat">"重复"</string>
+    <string name="alert">"铃声"</string>
+    <string name="time">"时间"</string>
+    <string name="alert_title">"闹钟"</string>
+    <string name="alarm_alert_dismiss_text">"取消"</string>
+    <string name="alarm_alert_alert_silenced">"闹钟在 <xliff:g id="MINUTES">%d</xliff:g> 分钟后静音"</string>
+    <string name="alarm_alert_snooze_text">"再响"</string>
+    <string name="alarm_alert_snooze_set">"<xliff:g id="MINUTES">%d</xliff:g> 分钟后再响。"</string>
+    <string name="alarm_alert_snooze_not_set">"未设置再响 - 下次闹钟设置在 <xliff:g id="TIME">%s</xliff:g>"</string>
+    <string name="alarm_set">"该闹钟设置为从现在起 <xliff:g id="TIME_DELTA">%s</xliff:g> 后再提醒。"</string>
+    <string name="combiner">"<xliff:g id="XXX_0">%1$s</xliff:g><xliff:g id="XXX_1">%2$s</xliff:g><xliff:g id="XXX_2">%3$s</xliff:g><xliff:g id="XXX_3">%4$s</xliff:g><xliff:g id="XXX_4">%5$s</xliff:g>"</string>
+    <string name="one_day">"1 天"</string>
+    <string name="days">"<xliff:g id="DAYS">%s</xliff:g> 天"</string>
+    <string name="hour">"1 小时"</string>
+    <string name="hours">"<xliff:g id="HOURS">%s</xliff:g> 小时"</string>
+    <string name="and">" 和 "</string>
+    <string name="space">" "</string>
+    <string name="subminute">"短于 1 分钟"</string>
+    <string name="minute">"1 分钟"</string>
+    <string name="minutes">"<xliff:g id="MINUTES">%s</xliff:g> 分钟"</string>
+    <string name="am">"上午"</string>
+    <string name="pm">"下午"</string>
+    <string name="every_day">"每天"</string>
+    <string name="never">"永不"</string>
+    <string name="day_concat">"、 "</string>
+    <string name="clock_instructions">"选择要显示的时钟。"</string>
+    <string name="error">"未设置闹钟"</string>
+    <string name="dberror">"抱歉，无法设置该闹钟。"</string>
+    <string name="analog_gadget">"模拟时钟"</string>
+    <string name="digital_gadget">"数字时钟"</string>
+
+    <string-array name="days_of_week">
+        <item>"周一"</item>
+        <item>"周二"</item>
+        <item>"周三"</item>
+        <item>"周四"</item>
+        <item>"周五"</item>
+        <item>"周六"</item>
+        <item>"周日"</item>
+    </string-array>
+    <string-array name="days_of_week_short">
+        <item>"周一"</item>
+        <item>"周二"</item>
+        <item>"周三"</item>
+        <item>"周四"</item>
+        <item>"周五"</item>
+        <item>"周六"</item>
+        <item>"周日"</item>
+    </string-array>
+
+    <string name="mon">"周一"</string>
+    <string name="tue">"周二"</string>
+    <string name="wed">"周三"</string>
+    <string name="thu">"周四"</string>
+    <string name="fri">"周五"</string>
+    <string name="sat">"周六"</string>
+    <string name="sun">"周日"</string>
+    <string name="myMusic">我的铃声</string>
+    <string name="settings">设置</string>
+    <string name="alarm_in_silent_mode_title">静音模式下闹铃</string>
+    <!-- Setting summary for whether the alarm should play in silent mode. -->
+    <string name="alarm_in_silent_mode_summary">手机静音模式下也闹铃</string>
+    <!-- 音频文件 -->
+    <string name="musicPickerTitle">Music - Select track</string>
+    <string name="musicPickerName">我的音乐</string>
+    <string name="loading">加载</string>
+    <string name="noMusic">没有音频文件或SD卡不能用</string>
+    <string name="sortByTrack">Tracks</string>
+    <string name="sortByAlbum">专辑</string>
+    <string name="sortByArtist">艺术家</string>
+    <string name="durationformat"><xliff:g id="format">%2$d:%5$02d</xliff:g></string>
+    <string name="alphabet">\u0020ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <string name="unknownArtistName">(不知名艺术家)</string>
+    <string name="unknownAlbumName">(不知名专辑)</string>
+    <string name="pull_to_refresh_pull_label">拖曳刷新...</string>
+    <string name="pull_to_refresh_release_label">释放刷新...</string>
+    <string name="pull_to_refresh_refreshing_label">正在加载...</string>
+    <string name="pull_to_refresh_tap_label">点击刷新</string>
+    <string name="app_label">闹钟</string>
+    <string name="loading_fail">加载失败</string>
+    <string name="weibo_input_content">请输入微博内容</string>
+    <string name="weibo_publish_successed">发表成功!</string>
+    <string name="weibo_publish_failed">发表失败!</string>
+    <string name="weibo_repost_successed">转发成功!</string>
+    <string name="weibo_repost_failed">转发失败!</string>
+    <string name="weibo_input_comments_content">请输入评论内容</string>
+    <string name="weibo_comment_successed">评论成功!</string>    
+    <string name="weibo_comment_failed">评论失败!</string>
+    <string name="communication_note_back">通讯/记事备份</string>
+    <string name="sms">短信</string>
+    <string name="contact">联系人</string>
+    <string name="tools">插件</string>
+    <string name="sina_weibo">新浪微博</string>
+    <string name="no_huang_calender_info">对不起，黄历信息暂未更新</string>
+    <string name="back_up">备份</string>
+    <string name="back">返回</string>
+    <string name="comment">评论</string>
+    <string name="publish">发表</string>
+    <string name="new_weibo">新微薄</string>
+    <string name="some_thing_to_tell">有什么新鲜事想告诉大家....</string>
+    <string name="user_name">用户名:</string>
+    <string name="input_user_name">请输入用户名</string>
+    <string name="password">密码:</string>
+    <string name="input_password">请输入密码</string>
+    <string name="auto_login">自动登录</string>
+    <string name="net_cannot_work">网络异常,请检查网络</string>
+    <string name="no_more_data">没有更多数据了</string>
+    <string name="already_latest">已经最新</string>
+    <string name="weibo_favrite_successed">收藏成功!</string>    
+    <string name="weibo_favrite_failed">收藏失败!</string>
+    <string name="loding_data">正在更新数据...</string>
+    <string name="weibo_comment">评论微博</string>
+    <string name="post_weibo_at_same_time">同时发一条微博</string>
+    <string name="say_something">说点儿什么吧......</string>
+    <string name="repost_weibo">转发微博</string>
+    <string name="publish_comments_at_same_time">同时作为评论发布</string>
+    <string name="no_folder">该文件下不存在文件</string>
+    <string name="day_no_note">该日无记事</string>
+    <string name="accout_and_password_cannot_null">账号和密码均不能为空.</string>
+    <string name="no_avaiable_weibo_please_ensure_avaiable">没有开通微博,请开通后进行授权.</string>
+    <string name="accout_or_password_error">账号或密码错误,请重新输入.</string>
+    <string name="login_success">登录成功！</string>
+    <string name="repost">转发</string>
+    <string name="favrite">收藏</string>
+    <string name="confirm_exit">确定退出吗</string>
+    <string name="image_share">图片分享</string>
+    <string name="share_from_application">分享自插件式事务管理系统</string>
+    <string name="save_photo_success">保存图片成功至</string>
+    <string name="save_photo_failed">保存图片失败</string>
+    <string name="no_content">暂无数据</string>
+    <string name="sort_by_contact">按联系人</string>
+    <string name="sort_by_date">按时间</string>
+    <string name="sms_no_read">未读短信</string>
+</resources>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- <ScrollView style="@style/fillall" > -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/fillx"
+    android:background="#fff"
+    android:orientation="vertical" >
+
+    <!-- Login user information -->
+
+    <LinearLayout style="@style/fillx" >
+
+        <LinearLayout
+            style="@style/wrap"
+            android:padding="5dp" >
+
+            <ImageView
+                android:id="@+id/detail_publisher_user_photo"
+                android:layout_width="50dip"
+                android:layout_height="50dip"
+                android:background="@drawable/icon" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/fillall"
+            android:orientation="vertical"
+            android:padding="5dp" >
+
+            <TextView
+                android:id="@+id/detail_msg_publisher_name"
+                style="@style/wrap"
+                android:layout_weight="1"
+                android:text="Publisher:"
+                android:textColor="@color/micro_user_name_color"
+                android:textSize="@dimen/micro_default_text_size" />
+
+            <TextView
+                android:id="@+id/detail_msg_publish_time"
+                style="@style/wrap"
+                android:layout_weight="1"
+                android:gravity="bottom"
+                android:text="Time:"
+                android:textSize="@dimen/micro_default_text_size" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- message detail -->
+
+    <LinearLayout
+        android:id="@+id/ldetail_msg_detail_contaniner"
+        style="@style/fillx"
+        android:background="@drawable/weibo_left_pane_open_item_normal"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp" >
+
+        <TextView
+            android:id="@+id/detail_msg_detail_content"
+            style="@style/micro_msg_content1" />
+    </LinearLayout>
+
+    <!-- if have, show message figure -->
+
+    <LinearLayout
+        android:id="@+id/detail_msg_figure"
+        style="@style/fillx"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <com.cc.software.calendar.view.ImageViewEx
+            android:id="@+id/msg_figure"
+            android:layout_width="150dip"
+            android:layout_height="150dip"
+            android:scaleType="fitCenter" />
+    </LinearLayout>
+
+</LinearLayout> <!-- <ScrollView > -->
+

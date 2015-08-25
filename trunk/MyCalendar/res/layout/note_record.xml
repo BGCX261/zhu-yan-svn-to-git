@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/fillall"
+    android:background="@drawable/body_bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        style="@style/fillx"
+        android:background="@drawable/head_bg"
+        android:gravity="center_vertical" >
+
+        <ImageView
+            style="@style/wrap"
+            android:padding="5dip"
+            android:src="@drawable/note_title_icon" />
+
+        <TextView
+            style="@style/wrap"
+            android:layout_weight="1"
+            android:text="iNotepad" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/fillx"
+        android:layout_marginBottom="20dip"
+        android:background="@drawable/content_bg"
+        android:paddingBottom="20dip"
+        android:paddingTop="20dip" >
+
+        <ImageView
+            android:id="@+id/btn_take_photo"
+            style="@style/view_avg_width"
+            android:src="@drawable/btn_take_photo" />
+
+        <ImageView
+            android:id="@+id/btn_record"
+            style="@style/view_avg_width"
+            android:src="@drawable/btn_record" />
+
+        <ImageView
+            android:id="@+id/btn_vedio"
+            style="@style/view_avg_width"
+            android:src="@drawable/btn_vedio" />
+
+        <ImageView
+            android:id="@+id/btn_note"
+            style="@style/view_avg_width"
+            android:src="@drawable/btn_note" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/list"
+        style="@style/fillx"
+        android:cacheColorHint="#4F4F4F"
+        android:divider="@drawable/line" />
+
+</LinearLayout>

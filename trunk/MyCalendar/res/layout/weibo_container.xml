@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/fillall"
+    android:background="#fff" >
+
+    <com.cc.software.calendar.weibo.MessageListView
+        android:id="@+id/weibo_list"
+        style="@style/fillall" />
+
+    <com.cc.software.calendar.weibo.MessageDetailGallery
+        android:id="@+id/weibo_fling"
+        style="@style/fillall"
+        android:visibility="gone" />
+
+    <com.cc.software.calendar.weibo.MessageDetailView
+        android:id="@+id/weibo_detail"
+        style="@style/fillall"
+        android:visibility="gone" />
+
+    <com.cc.software.calendar.weibo.LoginView
+        android:id="@+id/weibo_login"
+        style="@style/fillall"
+        android:visibility="visible" />
+
+</FrameLayout>
